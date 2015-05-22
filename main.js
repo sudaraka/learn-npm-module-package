@@ -1,6 +1,6 @@
 
-var g = require('./greeter');
+var g = require('./lib');
 
 g.greet('World');
 
-require('./greeter').greet('Another World');
+require('./lib').greet('Another World');
