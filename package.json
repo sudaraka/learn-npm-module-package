@@ -1,0 +1,31 @@
+{
+  "name": "learn-npm-module-package",
+  "version": "1.0.0",
+  "description": "Practice code based on the video [Node.js npm package management and module development](https://www.youtube.com/watch?v=emXJxJb06uY) by [Tony Pujals](https://twitter.com/subfuzion)",
+  "main": "app/main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudaraka/learn-npm-module-package.git"
+  },
+  "keywords": [
+    "learn",
+    "npm",
+    "module",
+    "package"
+  ],
+  "author": "Sudaraka Wijesinghe <sudaraka@sudaraka.org> (http://sudaraka.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sudaraka/learn-npm-module-package/issues"
+  },
+  "homepage": "https://github.com/sudaraka/learn-npm-module-package#readme",
+  "dependencies": {
+    "mongodb": "^2.0.33"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
